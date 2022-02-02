@@ -20,7 +20,8 @@ resource "aws_instance" "ws" {
   key_name               = var.key_name
   user_data              = data.template_file.ws.rendered
   availability_zone      = var.availability_zone
-  subnet_id              = var.subnet_id
+
+  # subnet_id              = var.subnet_id
 
   # provisioner "local-exec" {
   #   command = "curl http://${self.public_ip}"

@@ -32,15 +32,3 @@ variable "instance_ec2_id" {
    default = ""
    description = "instance_ec2_id"
 }
-
-# variable "target_group_arn" {
-#     type = string
-#     default = ""
-#     description = "target_group_arn"
-# }
-
-# variable "target_ids" {
-#    type = list(string)
-#    default = []
-#    description = "target_ids"
-# }

@@ -35,13 +35,11 @@ variable "name" {
 }
 
 variable "availability_zone" {
-   type = string
-   default = ""
-   description = "myavailability_zone"
+  type    = string
+  default = ""
+  description = "myavailability_zones"
 }
 
-variable "subnet_id" {
-   type = string
-   default = ""
-   description = "mysubnet_id"
-}
+# variable "subnet_ids" {
+#   type = list(string)
+# }
